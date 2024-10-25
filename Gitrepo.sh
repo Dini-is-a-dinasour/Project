@@ -13,7 +13,8 @@ if [ "$user" == "yes" ]; then
  )
  RANDOM=$[RANDOM_t % ${#sentences(@)}]
  echo "${sentences[$RANDOM_t]}"
-
-else [ "$user" == "no"]; then
+elif [ "$user" == "no"]; then
   echo "awwwwwwww :("
+else 
+ echo "not an option, retry some other time"
 fi
