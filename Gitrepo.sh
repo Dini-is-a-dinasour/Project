@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo "do you want to hear a joke? (yes or no)"
 read user
 if [ "$user" == "yes" ]; then
